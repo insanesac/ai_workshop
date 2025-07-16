@@ -1,0 +1,26 @@
+{
+  "model_configs": {
+    "gpt2": {
+      "model_name": "gpt2",
+      "max_length": 50,
+      "temperature": 0.7,
+      "top_k": 50,
+      "top_p": 0.95,
+      "num_return_sequences": 1
+    },
+    "distilgpt2": {
+      "model_name": "distilgpt2",
+      "max_length": 50,
+      "temperature": 0.7,
+      "top_k": 50,
+      "top_p": 0.95,
+      "num_return_sequences": 1
+    },
+    "resnet18": {
+      "model_name": "resnet18",
+      "pretrained": true,
+      "num_classes": 3,
+      "input_size": [3, 224, 224]
+    }
+  }
+}

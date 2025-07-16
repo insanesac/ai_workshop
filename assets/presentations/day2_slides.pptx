@@ -1,0 +1,65 @@
+The file /ai-workshop/ai-workshop/assets/presentations/day2_slides.pptx is a PowerPoint presentation file. As a text-based assistant, I cannot generate the contents of a binary file like a PowerPoint presentation directly. 
+
+However, I can help you outline the content that should be included in the Day 2 slides. Here’s a suggested structure for the presentation:
+
+1. **Title Slide**
+   - Title: Day 2: LLM Fine-Tuning & Application
+   - Subtitle: AI Workshop
+   - Date
+   - Presenter Name
+
+2. **Agenda**
+   - Fine-Tuning Overview & Demo
+   - Lab: Fine-Tune a Small LLM
+   - RAG Introduction
+   - Mini RAG Lab
+   - LLM App Build
+   - Peer Testing & Tuning
+   - Ethics & Safety Discussion
+   - Preview Day 3
+
+3. **Fine-Tuning Overview**
+   - Definition of Fine-Tuning
+   - When to Fine-Tune vs. Prompting
+   - Key Considerations
+
+4. **Demo: Fine-Tuning a Language Model**
+   - Overview of the Dataset
+   - Steps for Fine-Tuning
+   - Expected Outcomes
+
+5. **Lab: Fine-Tune a Small LLM**
+   - Instructions for Students
+   - Dataset: Campus FAQ
+   - Expected Results
+
+6. **RAG Introduction**
+   - What is Retrieval-Augmented Generation?
+   - Importance of RAG in AI Applications
+
+7. **Mini RAG Lab**
+   - Instructions for the Lab
+   - Steps to Implement RAG
+   - Example Use Case
+
+8. **LLM App Build**
+   - Overview of App Options
+   - Instructions for Building Apps
+   - Integration with Gradio
+
+9. **Peer Testing & Tuning**
+   - Instructions for Peer Review
+   - Feedback Mechanism
+
+10. **Ethics & Safety Discussion**
+    - Key Ethical Considerations
+    - Discussion Points
+
+11. **Preview of Day 3**
+    - Overview of Upcoming Topics
+    - Transition to Computer Vision Deep Dive
+
+12. **Q&A Slide**
+    - Open Floor for Questions
+
+If you need help creating specific slides or content for any of these sections, please let me know!

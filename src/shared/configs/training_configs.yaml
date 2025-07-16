@@ -1,0 +1,44 @@
+# Training Configuration for AI Workshop
+
+# General Training Settings
+training:
+  epochs: 5
+  batch_size: 32
+  learning_rate: 0.001
+  optimizer: Adam
+  loss_function: CrossEntropyLoss
+
+# Model Specific Configurations
+models:
+  gpt2:
+    pretrained: true
+    fine_tune: true
+    max_length: 50
+  resnet:
+    pretrained: true
+    num_classes: 10
+
+# Data Augmentation Settings
+data_augmentation:
+  enabled: true
+  techniques:
+    - RandomHorizontalFlip
+    - ColorJitter
+    - RandomRotation
+
+# Logging and Checkpointing
+logging:
+  log_interval: 10
+  save_model: true
+  checkpoint_dir: ./checkpoints
+
+# Device Configuration
+device:
+  use_cuda: true
+  cuda_device: 0
+
+# Early Stopping
+early_stopping:
+  enabled: true
+  patience: 3
+  min_delta: 0.01

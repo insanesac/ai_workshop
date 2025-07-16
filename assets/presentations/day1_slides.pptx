@@ -1,0 +1,59 @@
+The file /ai-workshop/ai-workshop/assets/presentations/day1_slides.pptx is a PowerPoint presentation file. As a text-based assistant, I cannot generate the contents of a binary file like a PowerPoint presentation directly. However, I can provide you with a suggested outline for the slides that you can use to create the presentation in PowerPoint or any other presentation software.
+
+### Suggested Outline for Day 1 Slides
+
+1. **Title Slide**
+   - Title: AI Workshop - Day 1
+   - Subtitle: Foundations & Environment Setup
+   - Date
+   - Presenter Name
+
+2. **Agenda**
+   - Overview of Day 1
+   - Key Topics to Cover
+   - Schedule
+
+3. **Kickoff & Objectives**
+   - Welcome Remarks
+   - Goals of the Workshop
+   - Introduction Round
+
+4. **Environment Check**
+   - Required Software
+     - Python 3.10+
+     - Jupyter or VS Code
+   - Package Installations
+     - torch, transformers, opencv-python, numpy, pandas, matplotlib, gradio
+   - Quick Demo: Running a Simple Tensor
+
+5. **AI Refresher**
+   - Machine Learning Pipeline
+   - Overview of Neural Networks
+   - Real-World Applications of AI
+   - Importance of Open Source
+
+6. **Hands-On Mini-Pipelines**
+   - Text Processing with GPT-2
+   - Image Processing with ResNet
+   - Code Snippets for Each Pipeline
+
+7. **LLM Concepts & Prompting**
+   - Understanding Transformer Blocks
+   - Prompt Engineering vs. Fine-Tuning
+   - Pair Exercise: Prompting Techniques
+
+8. **CV Concepts & OpenCV Lab**
+   - Overview of Convolutional Neural Networks
+   - Common CV Tasks
+   - Hands-On Lab: Image Processing with OpenCV
+
+9. **Wrap-Up & Prep for Day 2**
+   - Key Takeaways from Day 1
+   - Overview of Day 2 Topics
+   - Q&A Session
+
+10. **Thank You Slide**
+    - Contact Information
+    - Resources for Further Learning
+
+You can use this outline to create your PowerPoint slides, adding visuals, code snippets, and any other relevant content to enhance the presentation. If you need help with specific slide content or design tips, feel free to ask!
