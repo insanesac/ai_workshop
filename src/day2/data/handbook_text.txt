@@ -1,0 +1,49 @@
+# Handbook for AI Workshop
+
+This handbook serves as a reference for participants in the AI workshop. It includes key concepts, methodologies, and resources that will be covered throughout the sessions.
+
+## Table of Contents
+
+1. **Introduction to AI**
+   - Definition of AI
+   - Types of AI: Narrow vs. General AI
+   - Applications of AI in various fields
+
+2. **Machine Learning Basics**
+   - Overview of Machine Learning
+   - Types of Machine Learning: Supervised, Unsupervised, Reinforcement Learning
+   - Key Algorithms: Linear Regression, Decision Trees, Neural Networks
+
+3. **Deep Learning Fundamentals**
+   - Introduction to Neural Networks
+   - Understanding Layers, Activation Functions, and Loss Functions
+   - Overview of Convolutional Neural Networks (CNNs) and Recurrent Neural Networks (RNNs)
+
+4. **Natural Language Processing (NLP)**
+   - Basics of NLP
+   - Key Techniques: Tokenization, Lemmatization, Named Entity Recognition
+   - Introduction to Transformers and BERT
+
+5. **Computer Vision**
+   - Overview of Computer Vision
+   - Key Techniques: Image Classification, Object Detection, Image Segmentation
+   - Introduction to Pre-trained Models (e.g., ResNet, YOLO)
+
+6. **Ethics in AI**
+   - Importance of Ethics in AI Development
+   - Common Ethical Issues: Bias, Privacy, Accountability
+   - Guidelines for Ethical AI Practices
+
+7. **Hands-On Labs**
+   - Lab 1: Building a Text Processing Pipeline
+   - Lab 2: Fine-Tuning a Language Model
+   - Lab 3: Implementing a Computer Vision Model
+
+8. **Resources for Further Learning**
+   - Recommended Books and Articles
+   - Online Courses and Tutorials
+   - Communities and Forums for AI Enthusiasts
+
+## Conclusion
+
+This handbook is designed to provide a comprehensive overview of the topics covered in the workshop. Participants are encouraged to refer to it throughout the sessions and use it as a resource for further exploration of AI concepts and practices.
