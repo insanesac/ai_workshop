@@ -1,0 +1,124 @@
+{
+    "faq": [
+        {
+            "question": "What are the library hours?",
+            "answer": "The library is open from 8 AM to 10 PM, Monday to Friday."
+        },
+        {
+            "question": "How can I access the campus Wi-Fi?",
+            "answer": "Connect to the 'CampusWiFi' network and use your student credentials to log in."
+        },
+        {
+            "question": "Where can I find the computer labs?",
+            "answer": "Computer labs are located in the main building, on the second floor."
+        },
+        {
+            "question": "What is the procedure for borrowing books?",
+            "answer": "You can borrow books at the front desk by presenting your student ID."
+        },
+        {
+            "question": "Are there any study rooms available?",
+            "answer": "Yes, study rooms can be reserved through the library's website."
+        },
+        {
+            "question": "How do I print documents on campus?",
+            "answer": "You can print documents at any of the library's printing stations using your student account."
+        },
+        {
+            "question": "What resources are available for tutoring?",
+            "answer": "Tutoring services are available in the academic support center, located next to the library."
+        },
+        {
+            "question": "How do I report a lost item?",
+            "answer": "Report lost items at the library's front desk or contact campus security."
+        },
+        {
+            "question": "Where can I find information about campus events?",
+            "answer": "Campus events are listed on the university's official website and on bulletin boards around campus."
+        },
+        {
+            "question": "What should I do if I have a question about my classes?",
+            "answer": "Contact your academic advisor or the registrar's office for assistance."
+        },
+        {
+            "question": "Where is the cafeteria located?",
+            "answer": "The main cafeteria is located on the ground floor of the student center building."
+        },
+        {
+            "question": "What are the dining hours?",
+            "answer": "The cafeteria is open from 7 AM to 9 PM on weekdays and 8 AM to 8 PM on weekends."
+        },
+        {
+            "question": "How do I add or drop a course?",
+            "answer": "You can add or drop courses through the student portal or by visiting the registrar's office during the add/drop period."
+        },
+        {
+            "question": "Where can I pay my tuition fees?",
+            "answer": "Tuition fees can be paid online through the student portal or at the finance office in the administration building."
+        },
+        {
+            "question": "Is there parking available on campus?",
+            "answer": "Yes, student parking is available in lots A, B, and C. You need a valid parking permit to park on campus."
+        },
+        {
+            "question": "How do I get a student ID card?",
+            "answer": "New student ID cards can be obtained at the ID services office in the student center with a photo and valid enrollment verification."
+        },
+        {
+            "question": "What health services are available on campus?",
+            "answer": "The campus health center provides basic medical services, counseling, and wellness programs. It's located next to the gym."
+        },
+        {
+            "question": "Where is the bookstore located?",
+            "answer": "The campus bookstore is located on the first floor of the student center, next to the cafeteria."
+        },
+        {
+            "question": "How do I access my grades online?",
+            "answer": "Grades can be accessed through the student portal using your student login credentials."
+        },
+        {
+            "question": "What should I do if I forget my password?",
+            "answer": "You can reset your password using the 'Forgot Password' link on the login page or contact IT support for assistance."
+        },
+        {
+            "question": "Where can I find financial aid information?",
+            "answer": "The financial aid office is located in the administration building, room 205. You can also find information on the university website."
+        },
+        {
+            "question": "Are there any recreational facilities on campus?",
+            "answer": "Yes, the campus has a gym, swimming pool, tennis courts, and a fitness center available for student use."
+        },
+        {
+            "question": "How do I join student clubs and organizations?",
+            "answer": "Information about student clubs is available at the student activities office or during the club fair held each semester."
+        },
+        {
+            "question": "What is the policy for late assignment submissions?",
+            "answer": "Late assignment policies vary by instructor. Check your course syllabus or contact your professor directly for specific policies."
+        },
+        {
+            "question": "Where can I find academic calendar information?",
+            "answer": "The academic calendar is available on the university website and includes important dates for registration, exams, and breaks."
+        },
+        {
+            "question": "How do I schedule an appointment with an advisor?",
+            "answer": "You can schedule appointments with academic advisors through the student portal or by calling the advising center directly."
+        },
+        {
+            "question": "What transportation options are available?",
+            "answer": "The campus shuttle runs every 15 minutes during class hours. There are also bike racks and walking paths throughout campus."
+        },
+        {
+            "question": "Where can I study late at night?",
+            "answer": "The library has 24-hour study areas during exam periods. The student center also has study spaces open until midnight."
+        },
+        {
+            "question": "How do I report a maintenance issue in my dorm?",
+            "answer": "Maintenance requests can be submitted online through the housing portal or by calling the residence hall front desk."
+        },
+        {
+            "question": "What career services are available?",
+            "answer": "The career center offers resume reviews, job search assistance, internship placement, and career counseling services."
+        }
+    ]
+}
