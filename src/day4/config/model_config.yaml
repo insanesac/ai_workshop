@@ -1,0 +1,28 @@
+# Model Configuration for StudyBuddy System
+
+# LLM Model Settings
+model:
+  name: "unsloth/Qwen2.5-14B-Instruct-bnb-4bit"
+  type: "qwen2.5-14b-instruct"
+  quantization: "4bit"
+  device: "auto"  # auto, cuda, cpu
+  
+  # Generation parameters
+  generation:
+    max_tokens: 400
+    temperature: 0.7
+    top_p: 0.9
+    top_k: 50
+    repetition_penalty: 1.1
+    do_sample: true
+
+# Hardware optimization
+hardware:
+  enable_gpu: true
+  memory_fraction: 0.8
+  enable_mixed_precision: true
+
+# Caching
+cache:
+  enable_model_cache: true
+  cache_dir: "./cache"

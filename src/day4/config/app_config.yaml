@@ -1,0 +1,68 @@
+# Application Configuration for StudyBuddy System
+
+# Application Settings
+app:
+  name: "StudyBuddy AI Learning Assistant"
+  version: "1.0.0"
+  environment: "development"  # development, staging, production
+  debug: true
+
+# API Settings
+api:
+  host: "0.0.0.0"
+  port: 8000
+  title: "StudyBuddy API"
+  description: "Production multi-agent AI learning assistant API"
+  version: "1.0.0"
+  docs_url: "/docs"
+  redoc_url: "/redoc"
+
+# Streamlit Settings  
+streamlit:
+  host: "0.0.0.0"
+  port: 8501
+  title: "StudyBuddy - AI Learning Assistant"
+  layout: "wide"
+  initial_sidebar_state: "expanded"
+
+# Data Storage
+storage:
+  data_dir: "./data"
+  sessions_dir: "./data/sessions"
+  goals_dir: "./data/goals"
+  notes_dir: "./data/notes"
+  backup_enabled: true
+  backup_interval_hours: 24
+
+# Logging
+logging:
+  level: "INFO"  # DEBUG, INFO, WARNING, ERROR, CRITICAL
+  format: "%(asctime)s | %(name)s | %(levelname)s | %(message)s"
+  file_enabled: true
+  file_path: "./logs/studybuddy.log"
+  max_file_size_mb: 100
+  backup_count: 5
+
+# Security
+security:
+  enable_cors: true
+  allowed_origins:
+    - "http://localhost:8501"  # Streamlit
+    - "http://localhost:3000"  # React (if added later)
+    - "http://127.0.0.1:8501"
+    - "http://127.0.0.1:3000"
+  
+# Performance
+performance:
+  max_concurrent_requests: 10
+  request_timeout_seconds: 300
+  enable_caching: true
+  cache_ttl_seconds: 3600
+
+# Features
+features:
+  enable_web_search: true
+  enable_file_management: true
+  enable_progress_tracking: true
+  enable_session_management: true
+  enable_goal_setting: true

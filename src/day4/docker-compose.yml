@@ -1,0 +1,97 @@
+version: '3.8'
+
+services:
+  # StudyBuddy FastAPI Backend
+  studybuddy-api:
+    build: .
+    container_name: studybuddy-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./cache:/app/cache
+      - ./config:/app/config
+    environment:
+      - PYTHONPATH=/app/src
+      - CUDA_VISIBLE_DEVICES=0  # Use first GPU
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 120s
+
+  # StudyBuddy Streamlit Frontend
+  studybuddy-web:
+    build: .
+    container_name: studybuddy-web
+    command: ["streamlit", "run", "streamlit_app/app.py", "--server.address", "0.0.0.0", "--server.port", "8501"]
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./config:/app/config
+    environment:
+      - PYTHONPATH=/app/src
+      - STREAMLIT_SERVER_HEADLESS=true
+      - STREAMLIT_SERVER_ENABLE_CORS=false
+      - STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION=false
+    depends_on:
+      studybuddy-api:
+        condition: service_healthy
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Optional: Redis for caching (can be added later)
+  # redis:
+  #   image: redis:7-alpine
+  #   container_name: studybuddy-redis
+  #   ports:
+  #     - "6379:6379"
+  #   volumes:
+  #     - redis_data:/data
+  #   restart: unless-stopped
+
+  # Optional: PostgreSQL for persistent data (can be added later)
+  # postgres:
+  #   image: postgres:15-alpine
+  #   container_name: studybuddy-postgres
+  #   environment:
+  #     POSTGRES_DB: studybuddy
+  #     POSTGRES_USER: studybuddy
+  #     POSTGRES_PASSWORD: studybuddy_password
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+  #   restart: unless-stopped
+
+volumes:
+  # Persistent volumes for data storage
+  studybuddy_data:
+    driver: local
+  studybuddy_logs:
+    driver: local
+  studybuddy_cache:
+    driver: local
+  # redis_data:
+  #   driver: local
+  # postgres_data:
+  #   driver: local
+
+networks:
+  default:
+    name: studybuddy-network
+    driver: bridge
